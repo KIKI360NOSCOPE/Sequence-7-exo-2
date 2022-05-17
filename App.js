@@ -2,6 +2,7 @@ import * as React from 'react';
 import {View, StyleSheet } from 'react-native';
 import DrawerNavigation from '../sequence7/src/Navigation/DrawerNavigation';
 
+
 const App = () => {
   return (
     <DrawerNavigation style={styles.container} />
