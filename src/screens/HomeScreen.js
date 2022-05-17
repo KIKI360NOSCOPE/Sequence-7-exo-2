@@ -4,10 +4,10 @@ import HomeComponent from '../../src/Components/HomeComponent';
 
 
 
-const HomeScreen = ({ navigation }) => {
+const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <HomeComponent navigation={navigation} />
+            <HomeComponent />
         </View>
         
     );
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: "lightblue"
+        backgroundColor: "lightgray"
     },
 });
 

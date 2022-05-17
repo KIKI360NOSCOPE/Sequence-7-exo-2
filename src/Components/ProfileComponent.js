@@ -1,12 +1,13 @@
-import { View, Text, StyleSheet, Button, Image, Platform } from 'react-native';
-import React from 'react';
+import { View, Text, Image, StyleSheet } from 'react-native'
+import React from 'react'
 
-const HomeComponent = () => {
-    return (
-        <View style={styles.container}>
-            <Text style={styles.txt}>Bienvenue</Text>
-        </View>
-    );
+const ProfileComponent = () => {
+  return (
+    <View style={styles.container}>
+      <Image style={{width: 300, height: 300}} source={require('../../src/Assets/Img/imgProfile.png')} />
+      <Text style={styles.txt}>Ada LOVELACE</Text>
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -28,4 +29,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default HomeComponent;
+export default ProfileComponent

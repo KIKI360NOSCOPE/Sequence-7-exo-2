@@ -7,7 +7,10 @@ import ProfileScreen from '../screens/ProfileScreen';
 import PersonnageScreen from '../screens/PersonnageScreen';
 import BiographieScreen from '../screens/BiographieScreen';
 
+
+
 const Drawer = createDrawerNavigator();
+
 
 const DrawerNavigation = () => {
     return (
@@ -21,5 +24,6 @@ const DrawerNavigation = () => {
         </NavigationContainer>
     );
     }
+    
 
 export default DrawerNavigation;

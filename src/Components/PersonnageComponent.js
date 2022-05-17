@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet, Button, Image, Platform } from 'react-native';
 import React from 'react';
 
-const HomeComponent = () => {
+const PersonnageComponent = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.txt}>Bienvenue</Text>
+            <Text style={styles.txt}>Ada Lovelace, de son nom complet Augusta Ada King, comtesse de Lovelace, née Ada Byron le 10 décembre 1815 à Londres et morte le 27 novembre 1852 à Marylebone dans la même ville, est une pionnière de la science informatique.</Text>
         </View>
     );
 }
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default HomeComponent;
+export default PersonnageComponent;

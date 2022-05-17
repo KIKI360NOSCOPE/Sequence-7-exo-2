@@ -1,10 +1,10 @@
 import * as React from 'react';
-import {View } from 'react-native';
+import {View, StyleSheet } from 'react-native';
 import DrawerNavigation from '../sequence7/src/Navigation/DrawerNavigation';
 
 const App = () => {
   return (
-    <DrawerNavigation style={StyleSheet.container} />
+    <DrawerNavigation style={styles.container} />
   );
 };
 
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: "lightblue",
+    backgroundColor: "lightgray",
     marginTop: 50
   },
 });
